@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundActivity"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="@string/app_headline"
+                android:textSize="36sp" />
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/usd" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_USD"
+                    android:text="usd" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/gbp" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_GBP"
+                    android:text="gbp" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/chf" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_CHF"
+                    android:text="chf" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/rub" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_RUB"
+                    android:text="rub" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/ron" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_RON"
+                    android:text="ron" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/nok" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_NOK"
+                    android:text="nok" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/dkk" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_DKK"
+                    android:text="dkk" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/try_" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_TRY"
+                    android:text="try" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/pln" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_PLN"
+                    android:text="pln" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/sek" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_SEK"
+                    android:text="sek" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/czk" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_CZK"
+                    android:text="czk" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/aud" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_AUD"
+                    android:text="aud" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/cad" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_CAD"
+                    android:text="cad" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/huf" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_HUF"
+                    android:text="huf" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MenuItem">
+
+                <ImageView
+                    style="@style/MenuImage"
+                    app:srcCompat="@drawable/ils" />
+
+                <Button
+                    style="@style/MenuButton"
+                    android:id="@+id/button_ILS"
+                    android:text="ils" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundActivity"
+    tools:context=".FixingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="8"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/currencyFlagImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitEnd" />
+
+                <TextView
+                    android:id="@+id/currencyAbbrText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:textAllCaps="true"
+                    android:textSize="45dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/FixingLine">
+
+            <TextView
+                style="@style/FixingFieldText"
+                android:text="Per"/>
+
+            <TextView
+                android:id="@+id/fieldPer"
+                style="@style/FixingValueText" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/FixingLine">
+
+            <TextView
+                style="@style/FixingFieldText"
+                android:text="BNB rate" />
+
+            <TextView
+                android:id="@+id/fieldFixing"
+                style="@style/FixingValueText" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/FixingLine">
+
+            <TextView
+                style="@style/FixingFieldText"
+                android:text="Buy 1 / Sell 1" />
+
+            <TextView
+                android:id="@+id/fieldBuySellOne"
+                style="@style/FixingValueText" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/FixingLine">
+
+            <TextView
+                style="@style/FixingFieldText"
+                android:text="Buy 2" />
+
+            <TextView
+                android:id="@+id/fieldBuyTwo"
+                style="@style/FixingValueText" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/FixingLine">
+
+            <TextView
+                style="@style/FixingFieldText"
+                android:text="Sell 2" />
+
+            <TextView
+                android:id="@+id/fieldSellTwo"
+                style="@style/FixingValueText" />
+        </LinearLayout>
+        
+    </LinearLayout>
+</RelativeLayout>
